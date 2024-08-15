@@ -13,6 +13,7 @@ hostmakedepends = [
     "glib-devel",
     "gmake",
     "gtk-doc-tools",
+    "libtool",
     "pkgconf",
 ]
 makedepends = [
@@ -22,7 +23,7 @@ makedepends = [
     "upower-devel",
 ]
 pkgdesc = "Thermal daemon for x86_64-based Intel CPUs"
-maintainer = "Orphaned <orphaned@chimera-linux.org>"
+maintainer = "Nova <froggo8311@proton.me>"
 license = "GPL-2.0-or-later"
 url = "https://github.com/intel/thermal_daemon"
 source = f"{url}/archive/refs/tags/v{pkgver}.tar.gz"
